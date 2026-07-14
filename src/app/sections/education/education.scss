@@ -1,0 +1,38 @@
+.edu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .edu-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  
+  .edu-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .degree {
+    font-weight: 600;
+  }
+  
+  .years {
+    color: #888;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  
+  .school {
+    color: #555;
+  }
+  
+  .detail {
+    margin: 0.35rem 0 0;
+    color: #666;
+  }

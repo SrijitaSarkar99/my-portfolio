@@ -1,0 +1,38 @@
+.exp-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.exp-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.exp-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.role {
+  font-weight: 600;
+}
+
+.years {
+  color: #888;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.company {
+  color: #555;
+}
+
+.description {
+  margin: 0.35rem 0 0;
+  color: #666;
+}
